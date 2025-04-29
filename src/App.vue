@@ -1,47 +1,41 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <div>
+    <highcharts :options="chartOptions" />
+  </div>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
+<script>
+import { Chart } from 'highcharts-vue';
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+export default {
+  components: { highcharts: Chart },
+  data() {
+    return {
+      chartOptions: {
+        title: null,
+        legend: { enabled: false },
+        credits: { enabled: false },
+        chart: {
+          type: 'pie',
+          backgroundColor: 'transparent'
+        },
+        series: [{
+          name: 'Market Share',
+          data: [
+            { name: 'Product A', y: 45 },
+            { name: 'Product B', y: 30 }
+          ]
+        }]
+      }
+    };
+  },
+  mounted() {
+    setInterval(() => {
+      this.chartOptions.series[0].data = [
+        Math.random() * 100,
+        Math.random() * 100,
+      ];
+    }, 2000);
   }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
+};
+</script>

@@ -7,6 +7,10 @@
   font-weight: normal;
 }
 
+body {
+  background-color: #fff;
+}
+
 a,
 .green {
   text-decoration: none;
