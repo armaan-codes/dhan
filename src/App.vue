@@ -62,21 +62,6 @@ export default {
 				});
 			}
 		);
-
-		this.webSocketService.subscribe({
-			"RequestCode": 15,
-			"InstrumentCount": 2,
-			"InstrumentList": [
-				{
-					"ExchangeSegment": "NSE_EQ",
-					"SecurityId": "1333"
-				},
-				{
-					"ExchangeSegment": "BSE_EQ",
-					"SecurityId": "532540"
-				}
-			]
-		});
 	},
 	beforeDestroy() {
 		// Disconnect WebSocket when the component is destroyed
