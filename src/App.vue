@@ -1,9 +1,9 @@
 <template>
-	<div className="flex flex-row space-x-4">
-		<div className="w-1/2 p-4">
+	<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+		<div className="p-4">
 			<PieChart :options="chartRocOptions" />
 		</div>
-		<div className="w-1/2 p-4">
+		<div className="p-4">
 			<PieChart :options="chartRocPercentageOptions" />
 		</div>
 	</div>
