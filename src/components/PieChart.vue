@@ -15,7 +15,9 @@ export default {
 	data() {
 		return {
 			chartOptions: {
-				title: null,
+				title: {
+					text: this.options.series[0].name,
+				},
 				legend: { enabled: false },
 				credits: { enabled: false },
 				chart: {

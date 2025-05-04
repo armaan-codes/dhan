@@ -1,30 +1,81 @@
 <template>
-	<div className="chart-container">
-		<PieChart :options="chartOptions" />
+	<div className="flex flex-row space-x-4">
+		<div className="w-1/2 p-4">
+			<PieChart :options="chartRocOptions" />
+		</div>
+		<div className="w-1/2 p-4">
+			<PieChart :options="chartRocPercentageOptions" />
+		</div>
 	</div>
 </template>
 
 <script>
 import PieChart from './components/PieChart.vue';
 import WebSocketService from './services/WebSocketService';
+import instrumentsData from '../public/n50-instruments.json';
 
 export default {
 	components: { PieChart },
 	data() {
 		return {
-			chartOptions: {
+			chartRocOptions: {
 				series: [
 					{
-						name: 'Test',
+						name: 'Nifty 50',
 						data: [
-							{ name: 'Product A', y: 0 },
-							{ name: 'Product B', y: 0 },
+							{ name: 'Bears', y: 0 },
+							{ name: 'Bulls', y: 0 },
 						],
 					},
 				],
 			},
-			webSocketService: null, // Instance of WebSocketService
+			chartRocPercentageOptions: {
+				series: [
+					{
+						name: 'Nifty 50 (%)',
+						data: [
+							{ name: 'Bears', y: 0 },
+							{ name: 'Bulls', y: 0 },
+						],
+					},
+				],
+			},
+			instrumentsData: instrumentsData,
+			webSocketService: null,
 		};
+	},
+	methods: {
+		synchronizeChartData() {
+			let positiveRocCount = 0;
+			let negativeRocCount = 0;
+
+			let positiveRocPercentageCount = 0;
+			let negativeRocPercentageCount = 0;
+
+			this.instrumentsData.forEach((instrument) => {
+				if (instrument.roc > 0) {
+					positiveRocCount += instrument.roc;
+				} else if (instrument.roc < 0) {
+					negativeRocCount += instrument.roc;
+				}
+
+				if (instrument.rocPercentage > 0) {
+					positiveRocPercentageCount += instrument.rocPercentage;
+				} else if (instrument.rocPercentage < 0) {
+					negativeRocPercentageCount += instrument.rocPercentage;
+				}
+
+			});
+
+			// Update the chart data
+			this.chartRocOptions.series[0].data[0].y = (Math.abs(negativeRocCount) / (Math.abs(positiveRocCount) + Math.abs(negativeRocCount))) * 100;
+			this.chartRocOptions.series[0].data[1].y = (Math.abs(positiveRocCount) / (Math.abs(positiveRocCount) + Math.abs(negativeRocCount))) * 100;
+
+			this.chartRocPercentageOptions.series[0].data[0].y = (Math.abs(negativeRocPercentageCount) / (Math.abs(positiveRocPercentageCount) + Math.abs(negativeRocPercentageCount))) * 100;
+			this.chartRocPercentageOptions.series[0].data[1].y = (Math.abs(positiveRocPercentageCount) / (Math.abs(positiveRocPercentageCount) + Math.abs(negativeRocPercentageCount))) * 100;
+
+
+		},
 	},
 	mounted() {
 		// Initialize WebSocketService
@@ -33,9 +84,20 @@ export default {
 		// Connect to WebSocket
 		this.webSocketService.connect(
 			(data) => {
-				// Update chart data dynamically
-				if (data && data.series) {
-					this.chartOptions.series[0].data = data.series;
+				if(data.type == 'TickerPacket' || data.type == 'PrevClosePacket') {
+					let instrumentIndex = this.instrumentsData.findIndex((instrument) => instrument.securityId == data.securityId)
+					if(data.type == 'TickerPacket') {
+						this.instrumentsData[instrumentIndex].ltp = parseFloat((data.lastTradedPrice).toFixed(2));
+					} else if(data.type == 'PrevClosePacket') {
+						this.instrumentsData[instrumentIndex].prevClosePrice = parseFloat((data.previousClosePrice).toFixed(2));
+					}
+
+					if(this.instrumentsData[instrumentIndex].ltp > 0 && this.instrumentsData[instrumentIndex].prevClosePrice > 0) {
+						this.instrumentsData[instrumentIndex].roc = this.instrumentsData[instrumentIndex].ltp - this.instrumentsData[instrumentIndex].prevClosePrice;
+						this.instrumentsData[instrumentIndex].rocPercentage = (this.instrumentsData[instrumentIndex].roc / this.instrumentsData[instrumentIndex].prevClosePrice) * 100;
+					
+						this.synchronizeChartData();
+					}
 				}
 			},
 			(error) => {
@@ -45,21 +107,17 @@ export default {
 				console.log('WebSocket connection closed');
 			},
 			() => {
-				// Subscribe when WebSocket is open
-				this.webSocketService.subscribe({
+				
+				let requestData = {
 					RequestCode: 15,
-					InstrumentCount: 2,
-					InstrumentList: [
-						{
-							ExchangeSegment: 'NSE_EQ',
-							SecurityId: '1333',
-						},
-						{
-							ExchangeSegment: 'BSE_EQ',
-							SecurityId: '532540',
-						},
-					],
-				});
+					InstrumentCount: instrumentsData.length,
+					InstrumentList: instrumentsData.map((instrument) => ({
+						ExchangeSegment: instrument.exchange + '_' + instrument.series,
+						SecurityId: instrument.securityId,
+					})),
+				};
+				// Subscribe when WebSocket is open
+				this.webSocketService.subscribe(requestData);
 			}
 		);
 	},
