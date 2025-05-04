@@ -21,7 +21,7 @@ export default {
 			chartRocOptions: {
 				series: [
 					{
-						name: 'Nifty 50',
+						name: 'Nifty 50 (ROC)',
 						data: [
 							{ name: 'Bears', y: 0 },
 							{ name: 'Bulls', y: 0 },
@@ -32,7 +32,7 @@ export default {
 			chartRocPercentageOptions: {
 				series: [
 					{
-						name: 'Nifty 50 (%)',
+						name: 'Nifty 50 (ROC %)',
 						data: [
 							{ name: 'Bears', y: 0 },
 							{ name: 'Bulls', y: 0 },
