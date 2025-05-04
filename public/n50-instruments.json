@@ -1,0 +1,402 @@
+[
+    {
+        "name" : "Adani Enterprises Ltd.",
+        "securityId" : "25",
+        "symbol" : "ADANIENT",
+        "series" : "EQ",
+        "weightage" : 0.54,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Adani Ports and Special Economic Zone Ltd.",
+        "securityId" : "15083",
+        "symbol" : "ADANIPORTS",
+        "series" : "EQ",
+        "weightage" : 0.82,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Apollo Hospitals Enterprise Ltd.",
+        "securityId" : "157",
+        "symbol" : "APOLLOHOSP",
+        "series" : "EQ",
+        "weightage" : 0.64,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Asian Paints Ltd.",
+        "securityId" : "236",
+        "symbol" : "ASIANPAINT",
+        "series" : "EQ",
+        "weightage" : 1,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Axis Bank Ltd.",
+        "securityId" : "5900",
+        "symbol" : "AXISBANK",
+        "series" : "EQ",
+        "weightage" : 3.08,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Bajaj Auto Ltd.",
+        "securityId" : "16669",
+        "symbol" : "BAJAJ-AUTO",
+        "series" : "EQ",
+        "weightage" : 0.81,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Bajaj Finance Ltd.",
+        "securityId" : "317",
+        "symbol" : "BAJFINANCE",
+        "series" : "EQ",
+        "weightage" : 2.05,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Bajaj Finserv Ltd.",
+        "securityId" : "16675",
+        "symbol" : "BAJAJFINSV",
+        "series" : "EQ",
+        "weightage" : 0.96,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Bharat Electronics Ltd.",
+        "securityId" : "383 ",
+        "symbol" : "BEL",
+        "series" : "EQ",
+        "weightage" : 1.02,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Bharti Airtel Ltd.",
+        "securityId" : "10604",
+        "symbol" : "BHARTIARTL",
+        "series" : "EQ",
+        "weightage" : 4.54,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Cipla Ltd.",
+        "securityId" : "694",
+        "symbol" : "CIPLA",
+        "series" : "EQ",
+        "weightage" : 0.79,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Coal India Ltd.",
+        "securityId" : "20374",
+        "symbol" : "COALINDIA",
+        "series" : "EQ",
+        "weightage" : 0.8,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Dr. Reddy's Laboratories Ltd.",
+        "securityId" : "881",
+        "symbol" : "DRREDDY",
+        "series" : "EQ",
+        "weightage" : 0.66,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Eicher Motors Ltd.",
+        "securityId" : "910",
+        "symbol" : "EICHERMOT",
+        "series" : "EQ",
+        "weightage" : 0.7,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Eternal Ltd.",
+        "securityId" : "5097",
+        "symbol" : "ETERNAL",
+        "series" : "EQ",
+        "weightage" : 1.47,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Grasim Industries Ltd.",
+        "securityId" : "1232",
+        "symbol" : "GRASIM",
+        "series" : "EQ",
+        "weightage" : 0.95,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "HCL Technologies Ltd.",
+        "securityId" : "7229",
+        "symbol" : "HCLTECH",
+        "series" : "EQ",
+        "weightage" : 1.51,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "HDFC Bank Ltd.",
+        "securityId" : "1333",
+        "symbol" : "HDFCBANK",
+        "series" : "EQ",
+        "weightage" : 13.3,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "HDFC Life Insurance Company Ltd.",
+        "securityId" : "467",
+        "symbol" : "HDFCLIFE",
+        "series" : "EQ",
+        "weightage" : 0.72,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Hero MotoCorp Ltd.",
+        "securityId" : "1348",
+        "symbol" : "HEROMOTOCO",
+        "series" : "EQ",
+        "weightage" : 0.45,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Hindalco Industries Ltd.",
+        "securityId" : "1363",
+        "symbol" : "HINDALCO",
+        "series" : "EQ",
+        "weightage" : 0.82,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Hindustan Unilever Ltd.",
+        "securityId" : "1394",
+        "symbol" : "HINDUNILVR",
+        "series" : "EQ",
+        "weightage" : 1.89,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "ICICI Bank Ltd.",
+        "securityId" : "4963",
+        "symbol" : "ICICIBANK",
+        "series" : "EQ",
+        "weightage" : 9.15,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "ITC Ltd.",
+        "securityId" : "1660",
+        "symbol" : "ITC",
+        "series" : "EQ",
+        "weightage" : 3.6,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "IndusInd Bank Ltd.",
+        "securityId" : "5258",
+        "symbol" : "INDUSINDBK",
+        "series" : "EQ",
+        "weightage" : 0.5,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Infosys Ltd.",
+        "securityId" : "1594",
+        "symbol" : "INFY",
+        "series" : "EQ",
+        "weightage" : 4.91,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "JSW Steel Ltd.",
+        "securityId" : "11723",
+        "symbol" : "JSWSTEEL",
+        "series" : "EQ",
+        "weightage" : 0.89,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Jio Financial Services Ltd.",
+        "securityId" : "18143",
+        "symbol" : "JIOFIN",
+        "series" : "EQ",
+        "weightage" : 0.77,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Kotak Mahindra Bank Ltd.",
+        "securityId" : "1922",
+        "symbol" : "KOTAKBANK",
+        "series" : "EQ",
+        "weightage" : 2.95,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Larsen & Toubro Ltd.",
+        "securityId" : "11483",
+        "symbol" : "LT",
+        "series" : "EQ",
+        "weightage" : 3.56,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Mahindra & Mahindra Ltd.",
+        "securityId" : "2031",
+        "symbol" : "M&M",
+        "series" : "EQ",
+        "weightage" : 2.36,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Maruti Suzuki India Ltd.",
+        "securityId" : "10999",
+        "symbol" : "MARUTI",
+        "series" : "EQ",
+        "weightage" : 1.46,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "NTPC Ltd.",
+        "securityId" : "11630",
+        "symbol" : "NTPC",
+        "series" : "EQ",
+        "weightage" : 1.53,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Nestle India Ltd.",
+        "securityId" : "17963",
+        "symbol" : "NESTLEIND",
+        "series" : "EQ",
+        "weightage" : 0.78,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Oil & Natural Gas Corporation Ltd.",
+        "securityId" : "2475",
+        "symbol" : "ONGC",
+        "series" : "EQ",
+        "weightage" : 0.86,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Power Grid Corporation of India Ltd.",
+        "securityId" : "14977",
+        "symbol" : "POWERGRID",
+        "series" : "EQ",
+        "weightage" : 1.27,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Reliance Industries Ltd.",
+        "securityId" : "2885",
+        "symbol" : "RELIANCE",
+        "series" : "EQ",
+        "weightage" : 8.65,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "SBI Life Insurance Company Ltd.",
+        "securityId" : "21808",
+        "symbol" : "SBILIFE",
+        "series" : "EQ",
+        "weightage" : 0.72,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Shriram Finance Ltd.",
+        "securityId" : "4306",
+        "symbol" : "SHRIRAMFIN",
+        "series" : "EQ",
+        "weightage" : 0.78,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "State Bank of India",
+        "securityId" : "3045",
+        "symbol" : "SBIN",
+        "series" : "EQ",
+        "weightage" : 2.75,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Sun Pharmaceutical Industries Ltd.",
+        "securityId" : "3351",
+        "symbol" : "SUNPHARMA",
+        "series" : "EQ",
+        "weightage" : 1.79,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Tata Consultancy Services Ltd.",
+        "securityId" : "11536",
+        "symbol" : "TCS",
+        "series" : "EQ",
+        "weightage" : 3.2,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Tata Consumer Products Ltd.",
+        "securityId" : "3432",
+        "symbol" : "TATACONSUM",
+        "series" : "EQ",
+        "weightage" : 0.69,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Tata Motors Ltd.",
+        "securityId" : "3456",
+        "symbol" : "TATAMOTORS",
+        "series" : "EQ",
+        "weightage" : 1.22,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Tata Steel Ltd.",
+        "securityId" : "3499",
+        "symbol" : "TATASTEEL",
+        "series" : "EQ",
+        "weightage" : 1.05,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Tech Mahindra Ltd.",
+        "securityId" : "13538",
+        "symbol" : "TECHM",
+        "series" : "EQ",
+        "weightage" : 0.87,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Titan Company Ltd.",
+        "securityId" : "3506",
+        "symbol" : "TITAN",
+        "series" : "EQ",
+        "weightage" : 1.27,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Trent Ltd.",
+        "securityId" : "1964",
+        "symbol" : "TRENT",
+        "series" : "EQ",
+        "weightage" : 1.04,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "UltraTech Cement Ltd.",
+        "securityId" : "11532",
+        "symbol" : "ULTRACEMCO",
+        "series" : "EQ",
+        "weightage" : 1.23,
+        "exchange" : "NSE"
+    },
+    {
+        "name" : "Wipro Ltd.",
+        "securityId" : "3787",
+        "symbol" : "WIPRO",
+        "series" : "EQ",
+        "weightage" : 0.62,
+        "exchange" : "NSE"
+    }
+]
