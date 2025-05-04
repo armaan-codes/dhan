@@ -5,7 +5,9 @@
         "symbol" : "ADANIENT",
         "series" : "EQ",
         "weightage" : 0.54,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Adani Ports and Special Economic Zone Ltd.",
@@ -13,7 +15,9 @@
         "symbol" : "ADANIPORTS",
         "series" : "EQ",
         "weightage" : 0.82,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Apollo Hospitals Enterprise Ltd.",
@@ -21,7 +25,9 @@
         "symbol" : "APOLLOHOSP",
         "series" : "EQ",
         "weightage" : 0.64,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Asian Paints Ltd.",
@@ -29,7 +35,9 @@
         "symbol" : "ASIANPAINT",
         "series" : "EQ",
         "weightage" : 1,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Axis Bank Ltd.",
@@ -37,7 +45,9 @@
         "symbol" : "AXISBANK",
         "series" : "EQ",
         "weightage" : 3.08,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Bajaj Auto Ltd.",
@@ -45,7 +55,9 @@
         "symbol" : "BAJAJ-AUTO",
         "series" : "EQ",
         "weightage" : 0.81,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Bajaj Finance Ltd.",
@@ -53,7 +65,9 @@
         "symbol" : "BAJFINANCE",
         "series" : "EQ",
         "weightage" : 2.05,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Bajaj Finserv Ltd.",
@@ -61,7 +75,9 @@
         "symbol" : "BAJAJFINSV",
         "series" : "EQ",
         "weightage" : 0.96,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Bharat Electronics Ltd.",
@@ -69,7 +85,9 @@
         "symbol" : "BEL",
         "series" : "EQ",
         "weightage" : 1.02,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Bharti Airtel Ltd.",
@@ -77,7 +95,9 @@
         "symbol" : "BHARTIARTL",
         "series" : "EQ",
         "weightage" : 4.54,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Cipla Ltd.",
@@ -85,7 +105,9 @@
         "symbol" : "CIPLA",
         "series" : "EQ",
         "weightage" : 0.79,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Coal India Ltd.",
@@ -93,7 +115,9 @@
         "symbol" : "COALINDIA",
         "series" : "EQ",
         "weightage" : 0.8,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Dr. Reddy's Laboratories Ltd.",
@@ -101,7 +125,9 @@
         "symbol" : "DRREDDY",
         "series" : "EQ",
         "weightage" : 0.66,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Eicher Motors Ltd.",
@@ -109,7 +135,9 @@
         "symbol" : "EICHERMOT",
         "series" : "EQ",
         "weightage" : 0.7,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Eternal Ltd.",
@@ -117,7 +145,9 @@
         "symbol" : "ETERNAL",
         "series" : "EQ",
         "weightage" : 1.47,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Grasim Industries Ltd.",
@@ -125,7 +155,9 @@
         "symbol" : "GRASIM",
         "series" : "EQ",
         "weightage" : 0.95,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "HCL Technologies Ltd.",
@@ -133,7 +165,9 @@
         "symbol" : "HCLTECH",
         "series" : "EQ",
         "weightage" : 1.51,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "HDFC Bank Ltd.",
@@ -141,7 +175,9 @@
         "symbol" : "HDFCBANK",
         "series" : "EQ",
         "weightage" : 13.3,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "HDFC Life Insurance Company Ltd.",
@@ -149,7 +185,9 @@
         "symbol" : "HDFCLIFE",
         "series" : "EQ",
         "weightage" : 0.72,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Hero MotoCorp Ltd.",
@@ -157,7 +195,9 @@
         "symbol" : "HEROMOTOCO",
         "series" : "EQ",
         "weightage" : 0.45,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Hindalco Industries Ltd.",
@@ -165,7 +205,9 @@
         "symbol" : "HINDALCO",
         "series" : "EQ",
         "weightage" : 0.82,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Hindustan Unilever Ltd.",
@@ -173,7 +215,9 @@
         "symbol" : "HINDUNILVR",
         "series" : "EQ",
         "weightage" : 1.89,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "ICICI Bank Ltd.",
@@ -181,7 +225,9 @@
         "symbol" : "ICICIBANK",
         "series" : "EQ",
         "weightage" : 9.15,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "ITC Ltd.",
@@ -189,7 +235,9 @@
         "symbol" : "ITC",
         "series" : "EQ",
         "weightage" : 3.6,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "IndusInd Bank Ltd.",
@@ -197,7 +245,9 @@
         "symbol" : "INDUSINDBK",
         "series" : "EQ",
         "weightage" : 0.5,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Infosys Ltd.",
@@ -205,7 +255,9 @@
         "symbol" : "INFY",
         "series" : "EQ",
         "weightage" : 4.91,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "JSW Steel Ltd.",
@@ -213,7 +265,9 @@
         "symbol" : "JSWSTEEL",
         "series" : "EQ",
         "weightage" : 0.89,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Jio Financial Services Ltd.",
@@ -221,7 +275,9 @@
         "symbol" : "JIOFIN",
         "series" : "EQ",
         "weightage" : 0.77,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Kotak Mahindra Bank Ltd.",
@@ -229,7 +285,9 @@
         "symbol" : "KOTAKBANK",
         "series" : "EQ",
         "weightage" : 2.95,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Larsen & Toubro Ltd.",
@@ -237,7 +295,9 @@
         "symbol" : "LT",
         "series" : "EQ",
         "weightage" : 3.56,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Mahindra & Mahindra Ltd.",
@@ -245,7 +305,9 @@
         "symbol" : "M&M",
         "series" : "EQ",
         "weightage" : 2.36,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Maruti Suzuki India Ltd.",
@@ -253,7 +315,9 @@
         "symbol" : "MARUTI",
         "series" : "EQ",
         "weightage" : 1.46,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "NTPC Ltd.",
@@ -261,7 +325,9 @@
         "symbol" : "NTPC",
         "series" : "EQ",
         "weightage" : 1.53,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Nestle India Ltd.",
@@ -269,7 +335,9 @@
         "symbol" : "NESTLEIND",
         "series" : "EQ",
         "weightage" : 0.78,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Oil & Natural Gas Corporation Ltd.",
@@ -277,7 +345,9 @@
         "symbol" : "ONGC",
         "series" : "EQ",
         "weightage" : 0.86,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Power Grid Corporation of India Ltd.",
@@ -285,7 +355,9 @@
         "symbol" : "POWERGRID",
         "series" : "EQ",
         "weightage" : 1.27,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Reliance Industries Ltd.",
@@ -293,7 +365,9 @@
         "symbol" : "RELIANCE",
         "series" : "EQ",
         "weightage" : 8.65,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "SBI Life Insurance Company Ltd.",
@@ -301,7 +375,9 @@
         "symbol" : "SBILIFE",
         "series" : "EQ",
         "weightage" : 0.72,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Shriram Finance Ltd.",
@@ -309,7 +385,9 @@
         "symbol" : "SHRIRAMFIN",
         "series" : "EQ",
         "weightage" : 0.78,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "State Bank of India",
@@ -317,7 +395,9 @@
         "symbol" : "SBIN",
         "series" : "EQ",
         "weightage" : 2.75,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Sun Pharmaceutical Industries Ltd.",
@@ -325,7 +405,9 @@
         "symbol" : "SUNPHARMA",
         "series" : "EQ",
         "weightage" : 1.79,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Tata Consultancy Services Ltd.",
@@ -333,7 +415,9 @@
         "symbol" : "TCS",
         "series" : "EQ",
         "weightage" : 3.2,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Tata Consumer Products Ltd.",
@@ -341,7 +425,9 @@
         "symbol" : "TATACONSUM",
         "series" : "EQ",
         "weightage" : 0.69,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Tata Motors Ltd.",
@@ -349,7 +435,9 @@
         "symbol" : "TATAMOTORS",
         "series" : "EQ",
         "weightage" : 1.22,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Tata Steel Ltd.",
@@ -357,7 +445,9 @@
         "symbol" : "TATASTEEL",
         "series" : "EQ",
         "weightage" : 1.05,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Tech Mahindra Ltd.",
@@ -365,7 +455,9 @@
         "symbol" : "TECHM",
         "series" : "EQ",
         "weightage" : 0.87,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Titan Company Ltd.",
@@ -373,7 +465,9 @@
         "symbol" : "TITAN",
         "series" : "EQ",
         "weightage" : 1.27,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Trent Ltd.",
@@ -381,7 +475,9 @@
         "symbol" : "TRENT",
         "series" : "EQ",
         "weightage" : 1.04,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "UltraTech Cement Ltd.",
@@ -389,7 +485,9 @@
         "symbol" : "ULTRACEMCO",
         "series" : "EQ",
         "weightage" : 1.23,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     },
     {
         "name" : "Wipro Ltd.",
@@ -397,6 +495,8 @@
         "symbol" : "WIPRO",
         "series" : "EQ",
         "weightage" : 0.62,
-        "exchange" : "NSE"
+        "exchange" : "NSE",
+        "ltp" : 0,
+        "prevClosePrice" : 0 
     }
 ]
