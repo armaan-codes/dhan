@@ -1,6 +1,7 @@
 <template>
 	<highcharts :options="chartOptions" />
 </template>
+
 <script>
 import { Chart } from "highcharts-vue";
 
@@ -10,13 +11,17 @@ export default {
 		options: {
 			type: Object,
 			required: true,
+			validator(value) {
+				// Validate that options has a series array
+				return value && Array.isArray(value.series) && value.series.length > 0;
+			},
 		},
 	},
 	data() {
 		return {
 			chartOptions: {
 				title: {
-					text: this.options.series[0].name,
+					text: this.options.series[0]?.name || "Default Title", // Fallback for undefined name
 				},
 				legend: { enabled: false },
 				credits: { enabled: false },
@@ -44,7 +49,7 @@ export default {
 						},
 					},
 				},
-				series: [],
+				series: this.options.series || [], // Initialize with prop data
 			},
 		};
 	},
@@ -52,9 +57,10 @@ export default {
 		options: {
 			immediate: true,
 			handler(newOptions) {
-				// Dynamically update the series data from the prop
 				if (newOptions && newOptions.series) {
+					// Update only the necessary parts of chartOptions
 					this.chartOptions.series = newOptions.series;
+					this.chartOptions.title.text = newOptions.series[0]?.name || "Default Title"; // Update title dynamically
 				}
 			},
 		},
