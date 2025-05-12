@@ -1,8 +1,5 @@
 <template>
-	<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-		<div className="p-4">
-			<PieChart :options="chartRocOptions" />
-		</div>
+	<div className="grid grid-cols-1 gap-4">
 		<div className="p-4">
 			<PieChart :options="chartRocPercentageOptions" />
 		</div>
@@ -31,19 +28,28 @@
                     </th>
                     <th
                         class="border border-gray-300 px-4 py-2 cursor-pointer"
-                        @click="sortTable('roc')"
+                        @click="sortTable('weightage')"
                     >
-                        ROC
-                        <span v-if="sortKey === 'roc'">
+                        Weightage
+                        <span v-if="sortKey === 'weightage'">
                             {{ sortOrder === 'asc' ? '▲' : '▼' }}
                         </span>
                     </th>
-                    <th
+					<th
                         class="border border-gray-300 px-4 py-2 cursor-pointer"
                         @click="sortTable('rocPercentage')"
                     >
                         ROC %
                         <span v-if="sortKey === 'rocPercentage'">
+                            {{ sortOrder === 'asc' ? '▲' : '▼' }}
+                        </span>
+                    </th>
+                    <th
+                        class="border border-gray-300 px-4 py-2 cursor-pointer"
+                        @click="sortTable('rocPercentageWeightage')"
+                    >
+                        ROC % + Weightage
+                        <span v-if="sortKey === 'rocPercentageWeightage'">
                             {{ sortOrder === 'asc' ? '▲' : '▼' }}
                         </span>
                     </th>
@@ -55,11 +61,12 @@
                     :key="instrument.securityId"
                     class="hover:bg-gray-50"
                 >
-                    <td class="border border-gray-300 px-4 py-2">{{ instrument.name }}</td>
-                    <td class="border border-gray-300 px-4 py-2">{{ instrument.ltp }}</td>
-                    <td class="border border-gray-300 px-4 py-2">{{ instrument.roc.toFixed(2) }}</td>
-                    <td class="border border-gray-300 px-4 py-2">
-                        {{ instrument.rocPercentage.toFixed(2) }}%
+                    <td class="border border-gray-300 text-center px-4 py-2">{{ instrument.name }}</td>
+                    <td class="border border-gray-300 text-center px-4 py-2">{{ instrument.ltp }}</td>
+                    <td class="border border-gray-300 text-center px-4 py-2">{{ instrument.weightage }}</td>
+                    <td class="border border-gray-300 text-center px-4 py-2">{{ instrument.rocPercentage.toFixed(2) }}%</td>
+                    <td class="border border-gray-300 text-center px-4 py-2">
+                        {{ (instrument.rocPercentageWeightage).toFixed(2) }}%
                     </td>
                 </tr>
             </tbody>
@@ -91,7 +98,7 @@ export default {
 			chartRocPercentageOptions: {
 				series: [
 					{
-						name: 'Nifty 50 (ROC %)',
+						name: 'Nifty 50',
 						data: [
 							{ name: 'Bears', y: 0 },
 							{ name: 'Bulls', y: 0 },
@@ -205,6 +212,9 @@ export default {
 								(this.instrumentsData[instrumentIndex].roc /
 									this.instrumentsData[instrumentIndex].prevClosePrice) *
 								100;
+							this.instrumentsData[instrumentIndex].rocPercentageWeightage = 
+								(this.instrumentsData[instrumentIndex].rocPercentage *
+									this.instrumentsData[instrumentIndex].weightage);
 
 							this.synchronizeChartData();
 						}

@@ -9,7 +9,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Adani Ports and Special Economic Zone Ltd.",
@@ -21,7 +22,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Apollo Hospitals Enterprise Ltd.",
@@ -33,7 +35,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Asian Paints Ltd.",
@@ -45,7 +48,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Axis Bank Ltd.",
@@ -57,7 +61,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Bajaj Auto Ltd.",
@@ -69,7 +74,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Bajaj Finance Ltd.",
@@ -81,7 +87,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Bajaj Finserv Ltd.",
@@ -93,7 +100,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Bharat Electronics Ltd.",
@@ -105,7 +113,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Bharti Airtel Ltd.",
@@ -117,7 +126,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Cipla Ltd.",
@@ -129,7 +139,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Coal India Ltd.",
@@ -141,7 +152,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Dr. Reddy's Laboratories Ltd.",
@@ -153,7 +165,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Eicher Motors Ltd.",
@@ -165,7 +178,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Eternal Ltd.",
@@ -177,7 +191,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Grasim Industries Ltd.",
@@ -189,7 +204,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "HCL Technologies Ltd.",
@@ -201,7 +217,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "HDFC Bank Ltd.",
@@ -213,7 +230,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "HDFC Life Insurance Company Ltd.",
@@ -225,7 +243,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Hero MotoCorp Ltd.",
@@ -237,7 +256,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Hindalco Industries Ltd.",
@@ -249,7 +269,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Hindustan Unilever Ltd.",
@@ -261,7 +282,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "ICICI Bank Ltd.",
@@ -273,7 +295,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "ITC Ltd.",
@@ -285,7 +308,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "IndusInd Bank Ltd.",
@@ -297,7 +321,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Infosys Ltd.",
@@ -309,7 +334,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "JSW Steel Ltd.",
@@ -321,7 +347,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Jio Financial Services Ltd.",
@@ -333,7 +360,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Kotak Mahindra Bank Ltd.",
@@ -345,7 +373,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Larsen & Toubro Ltd.",
@@ -357,7 +386,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Mahindra & Mahindra Ltd.",
@@ -369,7 +399,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Maruti Suzuki India Ltd.",
@@ -381,7 +412,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "NTPC Ltd.",
@@ -393,7 +425,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Nestle India Ltd.",
@@ -405,7 +438,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Oil & Natural Gas Corporation Ltd.",
@@ -417,7 +451,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Power Grid Corporation of India Ltd.",
@@ -429,7 +464,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Reliance Industries Ltd.",
@@ -441,7 +477,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "SBI Life Insurance Company Ltd.",
@@ -453,7 +490,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Shriram Finance Ltd.",
@@ -465,7 +503,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "State Bank of India",
@@ -477,7 +516,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Sun Pharmaceutical Industries Ltd.",
@@ -489,7 +529,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Tata Consultancy Services Ltd.",
@@ -501,7 +542,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Tata Consumer Products Ltd.",
@@ -513,7 +555,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Tata Motors Ltd.",
@@ -525,7 +568,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Tata Steel Ltd.",
@@ -537,7 +581,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Tech Mahindra Ltd.",
@@ -549,7 +594,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Titan Company Ltd.",
@@ -561,7 +607,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Trent Ltd.",
@@ -573,7 +620,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "UltraTech Cement Ltd.",
@@ -585,7 +633,8 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     },
     {
         "name" : "Wipro Ltd.",
@@ -597,6 +646,7 @@
         "ltp" : 0,
         "prevClosePrice" : 0,
         "roc": 0,
-        "rocPercentage": 0 
+        "rocPercentage": 0,
+        "rocPercentageWeightage": 0 
     }
 ]
